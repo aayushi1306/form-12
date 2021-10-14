@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-1</title>
+</head>
+<body>
+    <h1> HTML FORM</h1>
+    <form action="">
+        <div>
+            <label for="username">Name:</label>
+            <input id="username" type="text" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+        </div>
+        <br>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <hr>
+    <form action="">
+        <div>
+            <label for="username1">First name:</label>
+            <input type="text" id="username1" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="username2">Last name:</label>
+            <input type="name" id="username2" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="useremail2">Email:</label>
+            <input type="useremail" id="useremail2" name="email" required>
+        </div>
+        <br>
+        <div>
+            <input type="radio" value="male" id="male" name="gender" required>
+            <label for="male">male</label>
+        </div>
+        <div>
+            <input type="radio" value="female" id="female" name="gender" required>
+            <label for="female">female</label>
+        </div>
+        <br>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </form>
+    <hr>
+    <form action="">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <Label for="f1">Name</Label>
+                    </td>
+                    <td>
+                        <input type="text" name="fnam" id="f1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sex1">Sex</label>
+                    </td>
+                    <th>
+                        <div>
+                            <input type="radio" value="male" id="male1" name="gender" required>
+                            <label for="male1">male</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="female" id="female2" name="gender" required>
+                            <label for="female2">female</label>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="eye">Eye Color</Label>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="">black</option>
+                            <option value="">green</option>
+                            <option value="">brown</option>
+                            <option value="">blue</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Check all that apply</label>
+                    </td>
+                    <td>
+                        <div>
+                            <input type="checkbox" id="checkbox1" name="height" value="6+">
+                            <label for="checkbox1">Over 6 feet tall</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkbox2" name="weight" value="200+">
+                            <label for="checkbox2">Over 200 pounds</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr> 
+                    <td colspan="2">
+                        <label>Describe  your athlectic ability :</label> <br>
+                        <textarea name="" id="" cols="40" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="enter your information">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <hr>
+    <form>
+        <div>
+            <label for="username3">Username :</label>
+            <input type="text" name="username1" id="username3" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass">Password :</label>
+            <input name="password" id="pass" type="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="employ">City of Employment :</label>
+            <input type="text" id="employ" name="employ" required>
+        </div>
+        <br>
+        <div>
+            <label for="server">Choose of server :</label>
+            <select id="server" name="server">
+                <option value="choose">-Choose a server-</option>
+                <option value="google">google</option>
+                <option value="w3schools">w3schools</option>
+                <option value="github">github</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="role">Please Specify Your role:</label>
+                <input type="radio" name="role" value="admin" id="role">
+                <label for="role">Admin</label>
+                <br>
+                <input type="radio" name="role" value="manager" id="role1">
+                <label for="role1">Manger</label>
+                <br>
+                <input type="radio" name="role" value="enginear" id="role2">
+                <label for="role2">Enginear</label>
+                <br>
+                <input type="radio" name="role" value="guest" id="role3">
+                <label for="role63">Guest</label>
+        </div>
+        <br>
+        <div>
+            <label for="checkbox3">Single Sign-on to the following :</label>
+            <input type="checkbox" name="type" id="checkbox3" value="Mail">
+            <label for="checkbox3">Mail</label>
+            <br>
+            <input type="checkbox" name="type" id="checkbox4" value="Payroll">
+            <label for="checkbox4">payroll</label>
+            <br>
+            <input name="type" id="checkbox5" type="checkbox" value="Self-Service">
+            <label for="checkbox5">Self-Service</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+    </form>
+
+</body>
+</html>
